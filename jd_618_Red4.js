@@ -1,5 +1,5 @@
 /*
-618红包助力
+618红包助力4
 
 脚本锁佣建议用新的京粉号
 https://u.jd.com/xxxxxxx
@@ -20,7 +20,7 @@ js最简使用方式
 // global.GLOBAL_AGENT.HTTP_PROXY="http://	DL池docker地址:8080";
 
 
-30 3 0 * * * jd_618_Red4.js 618红包助力
+3 0 * * * jd_618_Red4.js 618红包助力
 
 */
 require("global-agent/bootstrap");
