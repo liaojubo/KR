@@ -24,14 +24,14 @@ js最简使用方式
 
 */
 require("global-agent/bootstrap");
-// const dti = new Date(); 
-// let ti = dti.getHours(); 
-// if (0 <= ti && ti <= 23){ 
+const dti = new Date(); 
+let ti = dti.getHours(); 
+if (ti==21){ 
     global.GLOBAL_AGENT.HTTP_PROXY="http://159.75.240.92:5705";
-//     console.log('调用了付费代理池'); 
-// }else{ 
-//     console.log('不走代理'); 
-// }
+    console.log('调用了付费代理池'); 
+}else{ 
+    console.log('不走代理'); 
+}
 
 
 const $ = new Env('618红包助力1');
